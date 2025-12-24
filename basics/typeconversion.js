@@ -19,3 +19,13 @@ console.log(StringNumber)
 console.log(typeof StringNumber)
 
 
+
+
+
+
+
+
+
+
+
+
