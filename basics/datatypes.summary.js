@@ -27,4 +27,24 @@ console.log(typeof bigNumber)
 console.log(typeof outsidetemp);
 
 
+// *****************
+// stack(primitive) , heap(non primitive)
+let myyoutubename = "yogeshwarbhardwaj"
+let anothername = myyoutubename
+anothername = "chai or code"
+console.log(myyoutubename)
+console.log(anothername);
+let userone = {
+    email:"bhardwajyogeshwar@gmail.com",
+    upi : "user@ybl"
+
+}
+let usertwo = userone
+usertwo.email = "bhardwaj@gmail.com"
+console.log(userone.email)
+console.log(usertwo.email);
+
+
+
+
 
