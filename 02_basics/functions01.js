@@ -2,7 +2,7 @@ function myname(){
     console.log("yogeshwar");
     
 }
-// myname this is reference of function and my name() this is execution of function
+// myname this is reference of function and myname() this is execution of function
 //myname()
 //function addtwonumbers(number1, number2){
   //  console.log(number1 + number2);
@@ -39,13 +39,23 @@ return number1 + number2
 
  const user = {
     username: "yogeshwar",
-    price : 199
+    prices : 199
  }
  function handleobject(anyobject){
     console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
     
  }
- handleobject(user)
+ //handleobject(user)
+handleobject({
+   username: "yogesh",
+   price: 2999
+})
 
+const myarray = [200,300,400,500]
+function returnsecondvalue(getarray){
+   return getarray[1]
+}
+console.log(
+(myarray))
 
  
